@@ -1,0 +1,154 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #333;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+/* Style du formulaire de connexion */
+#login-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#login-form {
+    text-align: left;
+}
+
+#login-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#login-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#login-form button:hover {
+    background-color: #555;
+}
+
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+/* Style pour les titres */
+th {
+    background-color: #f2f2f2;
+}
+
+.employe-list {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0; /* Supprime les marges par défaut */
+}
+
+/* Style pour chaque élément li */
+.employe-list li {
+    margin-bottom: 10px; /* Espacement entre chaque élément */
+    padding: 8px; /* Espace intérieur */
+    border: 1px solid #ccc; /* Bordure autour de chaque élément */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #f9f9f9; /* Couleur de fond */
+}
+
+/* Style pour le formulaire de retour */
+.return-form {
+    text-align: center; /* Centrage du bouton */
+    margin-top: 20px; /* Marge en haut du bouton */
+}
+
+/* Style pour le bouton */
+.return-button {
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    font-size: 16px; /* Taille de police */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #f9f9f9; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    cursor: pointer; /* Curseur au survol */
+    transition: background-color 0.3s, color 0.3s; /* Transition en cas de survol */
+}
+
+/* Style pour le survol du bouton */
+.return-button:hover {
+    background-color: #ddd; /* Couleur de fond au survol */
+    color: #222; /* Couleur du texte au survol */
+}
